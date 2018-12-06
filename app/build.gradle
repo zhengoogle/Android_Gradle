@@ -11,6 +11,7 @@ android {
         versionCode Integer.parseInt(project.APP_VERSION_CODE)
         versionName project.APP_VERSION_NAME
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        resConfigs("zh")
     }
     buildTypes {
         debug {
