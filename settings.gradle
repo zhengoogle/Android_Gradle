@@ -1,1 +1,1 @@
-include ':app', ':basefwlibrary'
+include ':app', ':basefwlibrary', ':jacocolibrary'

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.simple.studio"
         // 支持gradle全局变量定义
@@ -15,8 +15,8 @@ android {
     }
     buildTypes {
         debug {
-            shrinkResources true
-            minifyEnabled true
+            shrinkResources true    // 开启压缩除去无效资源
+            minifyEnabled true      // 开启混淆
             manifestPlaceholders = [env_val0: "VAL0", env_val1: "VAL1"]
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -26,7 +26,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         release {
-            // minifyEnabled必须设置为true
+            // shrinkResources为true时minifyEnabled必须设置为true
             shrinkResources true
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -46,5 +46,4 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     //implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation project(':basefwlibrary')
-
 }

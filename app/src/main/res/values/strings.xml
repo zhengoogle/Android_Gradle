@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android_Gradle</string>
+    <string name="am_test_text">Android Gradle debug</string>
 </resources>

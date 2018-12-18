@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Android_Gradle.iml" filepath="$PROJECT_DIR$/Android_Gradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/basefwlibrary/basefwlibrary.iml" filepath="$PROJECT_DIR$/basefwlibrary/basefwlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jacocolibrary/jacocolibrary.iml" filepath="$PROJECT_DIR$/jacocolibrary/jacocolibrary.iml" />
     </modules>
   </component>
 </project>
