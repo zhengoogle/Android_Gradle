@@ -3,7 +3,8 @@
     package="com.simple.jacocolibrary">
 
     <application>
-        <activity android:name=".android.MainActivity"></activity>
+        <activity android:name=".android.MainActivity" />
+        <activity android:name=".app.AppTestActivity"></activity>
     </application>
 
 </manifest>

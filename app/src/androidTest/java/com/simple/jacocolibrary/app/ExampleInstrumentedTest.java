@@ -1,4 +1,4 @@
-package com.simple.jacocolibrary;
+package com.simple.jacocolibrary.app;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -7,7 +7,7 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Instrumented test, which will execute on an Android device.
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
         String packageName = appContext.getPackageName();
 
-        assertEquals("com.simple.jacocolibrary.test", packageName);
+        assertEquals("com.simple.studio", packageName);
     }
 }

@@ -15,6 +15,7 @@ android {
     }
     buildTypes {
         debug {
+//            testCoverageEnabled = true
 //            shrinkResources false
             minifyEnabled false
         }
